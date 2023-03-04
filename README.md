@@ -7,6 +7,7 @@ We introduce a novel dataset annotated by human called MedCI: Entity Consistency
 The basic format of the dataset is as follows, including multiple rounds of dialogue, knowledge base and related inconsistency annotations (SDI, EDI, MDI)：
 
 '''
+
  {
                 "id": "Patients",
                 "Sentence": "有点恶心,又有点想拉肚子,而且有点胸闷,和肺炎有关系吗?（男，36岁）",
@@ -131,3 +132,47 @@ The basic format of the dataset is as follows, including multiple rounds of dial
         "edi": 0
     }
 '''
+
+```
+[
+    {
+        "id": 74,
+        "dialogue": [
+            {
+                "turn": "driver",
+                "utterance": "i need to find out the date and time for my swimming_activity"
+            },
+            {
+                "turn": "assistant",
+                "utterance": "i have two which one i have one for the_14th at 6pm and one for the_12th at 7pm"
+            }
+        ],
+        "scenario": {
+            "kb": {
+                "items": [
+                    {
+                        "date": "the_11th",
+                        "time": "9am",
+                        "event": "tennis_activity",
+                        "agenda": "-",
+                        "room": "-",
+                        "party": "father"
+                    },
+                    {
+                        "date": "the_18th",
+                        "time": "2pm",
+                        "event": "football_activity",
+                        "agenda": "-",
+                        "room": "-",
+                        "party": "martha"
+                    },
+                    .......
+                ]
+            },
+            "qi": "0",
+            "hi": "0",
+            "kbi": "0"
+        },
+        "HIPosition": []
+    }
+```
