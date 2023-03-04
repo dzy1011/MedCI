@@ -7,8 +7,7 @@ We introduce a novel dataset annotated by human called MedCI: Entity Consistency
 The basic format of the dataset is as follows, including multiple rounds of dialogue, knowledge base and related inconsistency annotations (SDI, EDI, MDI)：
 
 '''
-"log": [
-            {
+ {
                 "id": "Patients",
                 "Sentence": "有点恶心,又有点想拉肚子,而且有点胸闷,和肺炎有关系吗?（男，36岁）",
                 "Symptom": [
