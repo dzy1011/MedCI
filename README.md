@@ -2,7 +2,11 @@
 The code will be released within a week
 
 ##  Dataset
-We introduce a novel dataset annotated by human called MedCI: Entity Consistency Identification in Medical Dialog systems. The dialogue data utilized for MedCI is collected from the publicly available MedDG dialogue corpora. The dataset contains fine-grained annotations, including Symptom-Disease Inconsistency, Disease-Medicine Inconsistency, and Examination-Disease Inconsistency. We release our dataset together with the code, you can find it in `data.zip`.
+We introduce a novel dataset annotated by human called MedCI: Entity Consistency Identification in Medical Dialog systems. 
+
+The dialogue data utilized for MedCI is collected from the publicly available MedDG dialogue corpora. 
+
+The dataset contains fine-grained annotations, including Symptom-Disease Inconsistency, Disease-Medicine Inconsistency, and Examination-Disease Inconsistency. We release our dataset together with the code, you can find it in `data.zip`.
 
 The basic format of the dataset is as follows, including multiple rounds of dialogue, knowledge base and related inconsistency annotations (SDI, EDI, MDI)：
 
