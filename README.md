@@ -1,5 +1,4 @@
 # MedCI: Towards Benchmarking Entity Consistency for Medical Dialogue System
-The code will be released within a week
 
 ##  Dataset
 We introduce a novel dataset annotated by human called MedCI: Entity Consistency Identification in Medical Dialog systems. 
