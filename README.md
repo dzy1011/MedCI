@@ -158,5 +158,5 @@ python -u train.py --cfg MedCI/MedCI_BERT.cfg
 
 The parameters we use are configured in the `configure`. If you need to adjust them, you can modify them in the relevant files or append parameters to the command.
 
-`location` is the path to bert or other pretrained models. You can modify this configuration to choose a different pre-trained model.
+`location` is the path to bert or other pre-trained models (e.g., medbert). You can modify this configuration to choose a different pre-trained model.
 
